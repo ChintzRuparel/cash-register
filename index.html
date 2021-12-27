@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register Manager - NEOG</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    
+    </style>
+  </head>
+  <body >
+    <main class="container">
+      <div>
+        <h1 class="heading">Cash Register Manager</h1>
+        <p style="font-family: 'Roboto', sans-serif;" class="description">
+            Enter Bill Amt and Cash Paid by the user 
+        </p>
+        <label class="input-label" for="bill-amount">Bill Amount:</label>
+        <input style="border-radius: 30px; height: 20px;width: 250px;" class="input" id="bill-amount" type="text" /><br> <br>
+        <label class="input-label" for="cash-given">Cash Given:</label>
+        <input style="border-radius: 30px; height: 20px;width: 250px;" class="input" id="cash-given" type="text" />
+        <br><br>
+        <button style="border-radius: 30px; height: 30px;width: 250px;" id="check-button">Check Cashout</button>
+        <p style="font-family: 'Roboto', sans-serif;" id="error-message"></p>
+        <table class="change-table">
+          <caption style="font-family: 'Roboto', sans-serif;">
+            Return to be given : 
+          </caption>
+          <tr>
+            <th>No of Notes</th>
+            <td class="no-of-notes"></td>
+
+            <td class="no-of-notes"></td>
+            
+            <td class="no-of-notes"></td>
+            
+            <td class="no-of-notes"></td>
+            
+            <td class="no-of-notes"></td>
+            
+            <td class="no-of-notes"></td>
+            
+            <td class="no-of-notes"></td>
+          </tr>
+          <tr>
+            <th>Note</th>
+            
+            <td>2000</td>
+            
+            <td>500</td>
+            
+            <td>100</td>
+            
+            <td>20</td>
+            
+            <td>10</td>
+            
+            <td>5</td>
+            
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    
+    <script src="/index.js" type="text/javascript"></script>
+  </body>
+</html>
