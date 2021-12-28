@@ -16,6 +16,7 @@
   <body >
     <main class="container">
       <div>
+        <center>
         <h1 class="heading">Cash Register Manager</h1>
         <p style="font-family: 'Roboto', sans-serif;" class="description">
             Enter Bill Amt and Cash Paid by the user 
@@ -25,48 +26,58 @@
         <label class="input-label" for="cash-given">Cash Given:</label>
         <input style="border-radius: 30px; height: 20px;width: 250px;" class="input" id="cash-given" type="text" />
         <br><br>
-        <button style="border-radius: 30px; height: 30px;width: 250px;" id="check-button">Check Cashout</button>
+        <button style="border-radius: 30px; height: 40px;width: 250px;" id="check-button">Check Cashout</button>
         <p style="font-family: 'Roboto', sans-serif;" id="error-message"></p>
         <table class="change-table">
-          <caption style="font-family: 'Roboto', sans-serif;">
-            Return to be given : 
-          </caption>
-          <tr>
-            <th>No of Notes</th>
-            <td class="no-of-notes"></td>
+          
+          <h3>Return to be Given : </h3>
 
-            <td class="no-of-notes"></td>
-            
-            <td class="no-of-notes"></td>
-            
-            <td class="no-of-notes"></td>
-            
-            <td class="no-of-notes"></td>
-            
-            <td class="no-of-notes"></td>
-            
-            <td class="no-of-notes"></td>
-          </tr>
+        <table style="width: 50%;" class="change-table">
           <tr>
-            <th>Note</th>
-            
-            <td>2000</td>
-            
-            <td>500</td>
-            
-            <td>100</td>
-            
-            <td>20</td>
-            
-            <td>10</td>
-            
-            <td>5</td>
-            
-            <td>1</td>
-          </tr>
+          <th>Number of Currency Notes</th>
+          <th>Notes</th>
+        </tr>
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>2000</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>500</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>100</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>20</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>10</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>5</td>
+        </tr>
+  
+        <tr>
+          <td class="no-of-notes"></td>
+          <td>1</td>
+        </tr>
+  
         </table>
       </div>
+
+      
     </main>
+  </center>
     
     <script src="/index.js" type="text/javascript"></script>
   </body>

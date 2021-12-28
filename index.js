@@ -8,7 +8,7 @@ const message = document.querySelector("#error-message");
 
 const noOfNotes = document.querySelectorAll(".no-of-notes");
 
-const availableNotes = [2000, 500, 100, 50, 20, 10, 5, 1];
+const availableNotes = [2000, 500, 100,20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
   hideMessage();
